@@ -77,12 +77,12 @@ function mercadoLibreAPI(app) {
         }
       });
       router.get('/insertcountries', async (req, res) => {
-        const categoriesService = new CategoriesService();
+        const countriesService = new CountriesService();
         try{
-            const data = await categoriesService.getDBCategories();
+            const data = await countriesService.insertDBCountries();
             if(data){
               res.status(200).json({
-                message: 'categories saved'
+                message: 'countries saved'
               });
             }
             else {

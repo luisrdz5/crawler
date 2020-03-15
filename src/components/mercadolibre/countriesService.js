@@ -33,6 +33,7 @@ class CountriesService {
             console.error(error);
           }
       }
+      /*
       async getDBCountries() {
         try {
           const data = await this.mongodb.getAll(this.collection, {});
@@ -40,6 +41,17 @@ class CountriesService {
         } catch (error) {
           throw new Error(error);
           return null
+        }
+      }
+      */
+      async insertDBCountries(){
+        try {
+          const api = `${config.apiMercadolibre}/sites`;
+          const { data } = await axios.get(api);
+          //console.log(data);
+          return this.createCountries(data);
+        } catch (error) {
+          console.error(error);
         }
       }
 }
