@@ -27,8 +27,6 @@ class CategoriesService {
         console.error(error);
       }
     };
-
-
     async insertDBCategories() {
       try {
         return await this.saveCategories();
@@ -39,13 +37,9 @@ class CategoriesService {
     async saveCategories(){
       try {
         let data = await this.categories();
-        
         data = ArrayUtils.flat(data);
-        
         data = await this.categoriesDetail(data);
-        //console.log(data);
         data = ArrayUtils.flat(data);
-        
         return this.insertCategories(data);
       } catch (error) {
         console.error(error);
@@ -108,24 +102,30 @@ class CategoriesService {
           throw new Error(error);
         }
       }
-
-
-
       async getAPICategoriesbyCountry(countryId) {
         try {
-          const countries = [{ id: countryId }];
-          return Promise.all(
-            countries.map((country) => this.categoriesByCountry(countryId))
-          );
-          //return await this.categoriesDetail([{id: countryId }]);
+         const countries = await this.getCategoriesByCountry(countryId);
+         const detail = await this.categoriesDetailByCountry(countries);
+         return detail;
 
         } catch (error) {
           console.error(error.message);
         }
       }
-
-
-
+      async getCategoriesByCountry(countryId){
+        const countries = [{ id: countryId }];
+        const data =  Promise.all(
+          countries.map((country) => this.categoriesByCountry(countryId))
+        )
+        return data;
+      }
+      async categoriesDetailByCountry(countries){
+        let countriesToGet = [];
+        let countrieKeys = [];
+       countriesToGet = countries.map((country) => Object.keys(country).map(index => country[index].id));
+       countriesToGet.map((data) =>  data.map(item => countrieKeys.push({id: item})));
+       return Promise.all(countrieKeys.map((category) => this.categoryDetail(category.id)));
+      }
 }
 
 module.exports = CategoriesService;
