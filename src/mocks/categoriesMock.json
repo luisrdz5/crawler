@@ -1,0 +1,1502 @@
+{
+    "source": "ML",
+    "fecha": "2020-03-21T21:55:35.876Z",
+    "data": [
+        {
+            "id": "MCU1747",
+            "name": "Accesorios para Vehículos",
+            "picture": "http://resources.mlstatic.com/category/images/4466939b-f467-489c-8bf6-6fe4ff032e82.png",
+            "children_categories": [
+                {
+                    "id": "MCU8475",
+                    "name": "Acc. para Motos y Cuatriciclos",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU86360",
+                    "name": "Acc. y Repuestos para Camiones",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU6520",
+                    "name": "Accesorios de Auto y Camioneta",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU418821",
+                    "name": "Accesorios Náuticos",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU6169",
+                    "name": "Aros y Rines",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU3381",
+                    "name": "Audio para Autos",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU4610",
+                    "name": "GNC",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU2227",
+                    "name": "Herramientas",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU86838",
+                    "name": "Limpieza de Vehículos",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU435844",
+                    "name": "Llantas",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU8531",
+                    "name": "Navegadores GPS para Vehículos",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU6170",
+                    "name": "Repuestos Autos y Camionetas",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU419936",
+                    "name": "Repuestos de Maquinaria Pesada",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU1771",
+                    "name": "Repuestos para Motos",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU86080",
+                    "name": "Seguridad Vehicular",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU377674",
+                    "name": "Service Programado",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU5679",
+                    "name": "Tuning y Accesorios",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU2232",
+                    "name": "Otros",
+                    "total_items_in_this_category": 0
+                }
+            ]
+        },
+        {
+            "id": "MCU1367",
+            "name": "Arte y Antigüedades",
+            "picture": "http://resources.mlstatic.com/category/images/1827b851-9d74-471e-917c-aa2353eeba87.png",
+            "children_categories": [
+                {
+                    "id": "MCU1372",
+                    "name": "Antigüedades",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU1368",
+                    "name": "Arte, Librería y Mercería",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU1945",
+                    "name": "Artesanías",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU1885",
+                    "name": "Otros",
+                    "total_items_in_this_category": 0
+                }
+            ]
+        },
+        {
+            "id": "MCU1743",
+            "name": "Autos, Motos y Otros",
+            "picture": "http://resources.mlstatic.com/category/images/e1a43666-ad57-4b8b-b405-f9d04dbbd8fc.png",
+            "children_categories": [
+                {
+                    "id": "MCU5682",
+                    "name": "Autos de Colección",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU1744",
+                    "name": "Autos y Camionetas",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU1751",
+                    "name": "Camiones",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU9374",
+                    "name": "Colectivos",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU41706",
+                    "name": "Maquinaria Pesada",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU1763",
+                    "name": "Motos",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU1785",
+                    "name": "Náutica",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU1907",
+                    "name": "Otros Vehículos",
+                    "total_items_in_this_category": 0
+                }
+            ]
+        },
+        {
+            "id": "MCU1039",
+            "name": "Cámaras Digitales y Foto",
+            "picture": "http://resources.mlstatic.com/category/images/8bd5dc08-0419-4eb5-a588-237bde56b9e2.png",
+            "children_categories": [
+                {
+                    "id": "MCU4998",
+                    "name": "Accesorios para Cámara Digital",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU9808",
+                    "name": "Álbumes y Portarretratos",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU5849",
+                    "name": "Cables",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU430361",
+                    "name": "Cámaras",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU6989",
+                    "name": "Cámaras de Video",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU430403",
+                    "name": "Drones y Accesorios",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU59376",
+                    "name": "Lentes y Filtros",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU430989",
+                    "name": "Repuestos para Cámaras",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU10372",
+                    "name": "Revelado y Laboratorio",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU4708",
+                    "name": "Telescopios y Binoculares",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU1914",
+                    "name": "Otros",
+                    "total_items_in_this_category": 0
+                }
+            ]
+        },
+        {
+            "id": "MCU1051",
+            "name": "Celulares y Teléfonos",
+            "picture": "http://resources.mlstatic.com/category/images/5b9b09c9-3526-4d24-bd8e-90b806771a9e.png",
+            "children_categories": [
+                {
+                    "id": "MCU3813",
+                    "name": "Accesorios Celulares",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU1055",
+                    "name": "Celulares y Smartphones",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU1058",
+                    "name": "Handies y Radiofrecuencia",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU401278",
+                    "name": "Lentes de Realidad Virtual",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU418108",
+                    "name": "Repuestos para Celulares",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU116399",
+                    "name": "Smartwatches y Accesorios",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU10616",
+                    "name": "Tarifadores y Cabinas",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU1053",
+                    "name": "Telefonía Fija e Inalámbrica",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU418114",
+                    "name": "Telefonía IP",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU1915",
+                    "name": "Otros",
+                    "total_items_in_this_category": 0
+                }
+            ]
+        },
+        {
+            "id": "MCU1798",
+            "name": "Coleccionables y Hobbies",
+            "picture": "http://resources.mlstatic.com/category/images/c8f22c9a-0ab2-48b6-b0e8-f29cb640f766.png",
+            "children_categories": [
+                {
+                    "id": "MCU6165",
+                    "name": "Billetes y Monedas",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU2355",
+                    "name": "Colecciones Diversas",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU1861",
+                    "name": "Filatelia",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU2314",
+                    "name": "Latas, Botellas y Afines",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU3407",
+                    "name": "Modelismo",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU2458",
+                    "name": "Otros",
+                    "total_items_in_this_category": 0
+                }
+            ]
+        },
+        {
+            "id": "MCU1648",
+            "name": "Computación",
+            "picture": "http://resources.mlstatic.com/category/images/f96f9ecc-dfe6-4cf9-a270-4c0cee23f868.png",
+            "children_categories": [
+                {
+                    "id": "MCU416199",
+                    "name": "Accesorios de Antiestática",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU3377",
+                    "name": "Accesorios para Notebook",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU1718",
+                    "name": "Alimentación",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU430598",
+                    "name": "Almacenamiento",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU183036",
+                    "name": "Apple",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU430918",
+                    "name": "Cables y Hubs USB",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU1665",
+                    "name": "CD y DVD Rom",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU3379",
+                    "name": "CDs y DVDs Vírgenes",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU1649",
+                    "name": "Computadoras y Servidores",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU1669",
+                    "name": "Discos Duros y Portátiles",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU3699",
+                    "name": "Estuches/Cajas/Sobres para CDs",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU1676",
+                    "name": "Impresoras y Cartuchos",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU2048",
+                    "name": "Joysticks",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU430687",
+                    "name": "Laptops y Accesorios",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU36845",
+                    "name": "Limpieza y Cuidado de PCs",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU1694",
+                    "name": "Memorias",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU21069",
+                    "name": "Monitores",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU1714",
+                    "name": "Mouses",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU1652",
+                    "name": "Notebooks y Laptops",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU3378",
+                    "name": "Parlantes",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU1658",
+                    "name": "Placas de Video y Editoras",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU1692",
+                    "name": "Placas Madre (Motherboards)",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU1693",
+                    "name": "Procesadores",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU1657",
+                    "name": "Proyectores y Pantallas",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU3525",
+                    "name": "Quemadoras de CD y DVD",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU1700",
+                    "name": "Redes y Redes Inalámbricas",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU1660",
+                    "name": "Scanners",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU1723",
+                    "name": "Software",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU116414",
+                    "name": "Tablets",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU1663",
+                    "name": "Tarjetas de Sonido",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU1713",
+                    "name": "Teclados",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU1667",
+                    "name": "Webcams",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU1912",
+                    "name": "Otros",
+                    "total_items_in_this_category": 0
+                }
+            ]
+        },
+        {
+            "id": "MCU1144",
+            "name": "Consolas y Videojuegos",
+            "picture": "http://resources.mlstatic.com/category/images/9712b6d0-1570-4edc-aea6-c1c13c9a4bfa.png",
+            "children_categories": [
+                {
+                    "id": "MCU4394",
+                    "name": "Game Cube",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU6002",
+                    "name": "Gameboy",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU32223",
+                    "name": "Gameboy Advance",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU113255",
+                    "name": "Nintendo 3DS",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU2919",
+                    "name": "Nintendo 64",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU11050",
+                    "name": "Nintendo DS",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU11223",
+                    "name": "Nintendo Wii",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU116387",
+                    "name": "Nintendo Wii U",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU2930",
+                    "name": "PlayStation 2",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU11623",
+                    "name": "PlayStation 3",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU116382",
+                    "name": "Playstation 4 - PS4",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU1149",
+                    "name": "Playstation I",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU107124",
+                    "name": "PlayStation Vita - PS Vita",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU6831",
+                    "name": "PSP",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU4831",
+                    "name": "Xbox",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU1152",
+                    "name": "Otros",
+                    "total_items_in_this_category": 0
+                }
+            ]
+        },
+        {
+            "id": "MCU1276",
+            "name": "Deportes y Fitness",
+            "picture": "http://resources.mlstatic.com/category/images/b39de702-b427-4c05-b659-c6db6b87b53f.png",
+            "children_categories": [
+                {
+                    "id": "MCU1338",
+                    "name": "Aerobics y Fitness",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU6146",
+                    "name": "Basketball",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU1292",
+                    "name": "Bicicletas y Ciclismo",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU1362",
+                    "name": "Camping y Pesca",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU1277",
+                    "name": "Deportes Acuáticos",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU6136",
+                    "name": "Fútbol",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU6144",
+                    "name": "Tenis, Paddle y Squash",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU440904",
+                    "name": "Tiro Deportivo",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU419243",
+                    "name": "Zapatillas Deportivas",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU1358",
+                    "name": "Otros",
+                    "total_items_in_this_category": 0
+                }
+            ]
+        },
+        {
+            "id": "MCU1000",
+            "name": "Electrónica, Audio y Video",
+            "picture": "http://resources.mlstatic.com/category/images/943ec641-717e-49cb-8a34-2f40ba367f5a.png",
+            "children_categories": [
+                {
+                    "id": "MCU3690",
+                    "name": "Accesorios para Audio y Video",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU431414",
+                    "name": "Accesorios para TV",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU3835",
+                    "name": "Audio",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU5054",
+                    "name": "Cables",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU11830",
+                    "name": "Componentes Electrónicos",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU4632",
+                    "name": "Controles Remotos",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU419370",
+                    "name": "Drones y Accesorios",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU58775",
+                    "name": "Fundas y Bolsos",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU352001",
+                    "name": "Media Streaming",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU5101",
+                    "name": "Pilas y Cargadores",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU4800",
+                    "name": "Proyectores y Pantallas",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU322074",
+                    "name": "Repuestos para TV",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU1002",
+                    "name": "Televisores",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU435556",
+                    "name": "Video",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU1070",
+                    "name": "Otros",
+                    "total_items_in_this_category": 0
+                }
+            ]
+        },
+        {
+            "id": "MCU1574",
+            "name": "Hogar y Electrodomésticos",
+            "picture": "http://resources.mlstatic.com/category/images/fa9a4882-7dff-4bd8-91ab-b31b13c941e5.png",
+            "children_categories": [
+                {
+                    "id": "MCU1631",
+                    "name": "Adornos y Decoración del Hogar",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU419810",
+                    "name": "Baños",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU1618",
+                    "name": "Bazar y Cocina",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU1608",
+                    "name": "Colchones y Sommiers",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU436140",
+                    "name": "Cortinas y Accesorios",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU436069",
+                    "name": "Cuidado del Hogar y Lavandería",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU1575",
+                    "name": "Electrodomésticos",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU419816",
+                    "name": "Iluminación para el Hogar",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU1621",
+                    "name": "Jardín y Exteriores",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU436380",
+                    "name": "Muebles para el Hogar",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU436414",
+                    "name": "Organización para el Hogar",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU1623",
+                    "name": "Sala de Estar y Comedor",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU436246",
+                    "name": "Seguridad para el Hogar",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU436501",
+                    "name": "Textiles de Hogar y Decoración",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU1902",
+                    "name": "Otros",
+                    "total_items_in_this_category": 0
+                }
+            ]
+        },
+        {
+            "id": "MCU1430",
+            "name": "Indumentaria y Accesorios",
+            "picture": "http://resources.mlstatic.com/category/images/eb722172-7d47-4a40-a65e-dab06e4f8ee6.png",
+            "children_categories": [
+                {
+                    "id": "MCU93484",
+                    "name": "Accesorios de Moda",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU8143",
+                    "name": "Blusas",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU93492",
+                    "name": "Camisas",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU8135",
+                    "name": "Camisetas",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU93500",
+                    "name": "Chaquetas",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU3109",
+                    "name": "Equipaje, Bolsos y Carteras",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU373771",
+                    "name": "Faldas",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU419275",
+                    "name": "Gafas",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU109254",
+                    "name": "Jardineras",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU95955",
+                    "name": "Leggings",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU413460",
+                    "name": "Lotes de Ropa",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU3107",
+                    "name": "Pantalones y Jeans",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU417212",
+                    "name": "Polos",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU417479",
+                    "name": "Ropa de Danza",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU6839",
+                    "name": "Ropa Deportiva",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU109278",
+                    "name": "Ropa Interior y de Dormir",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU93709",
+                    "name": "Ropa y Calzado para Bebés",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU93531",
+                    "name": "Shorts y Bermudas",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU109085",
+                    "name": "Sudaderas y Hoodies",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU93520",
+                    "name": "Sweaters",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU93509",
+                    "name": "Trajes",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU12554",
+                    "name": "Uniformes",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU93489",
+                    "name": "Vestidos",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU93506",
+                    "name": "Vestidos de Baño",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU109027",
+                    "name": "Zapatillas",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU109026",
+                    "name": "Zapatos",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU1911",
+                    "name": "Otros",
+                    "total_items_in_this_category": 0
+                }
+            ]
+        },
+        {
+            "id": "MCU1459",
+            "name": "Inmuebles",
+            "picture": "http://resources.mlstatic.com/category/images/7632cc84-c95a-45d3-addf-d4111f0208a3.png",
+            "children_categories": [
+                {
+                    "id": "MCU1472",
+                    "name": "Apartamentos",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU50564",
+                    "name": "Bodegas",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU1466",
+                    "name": "Casas",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU50491",
+                    "name": "Fincas",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU60774",
+                    "name": "Habitaciones",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU1478",
+                    "name": "Locales - Oficinas",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU1493",
+                    "name": "Lotes",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU1892",
+                    "name": "Otros Inmuebles",
+                    "total_items_in_this_category": 0
+                }
+            ]
+        },
+        {
+            "id": "MCU1182",
+            "name": "Instrumentos Musicales",
+            "picture": "http://resources.mlstatic.com/category/images/32ae2d82-e3d5-4408-9f6a-24a28ea64fd2.png",
+            "children_categories": [
+                {
+                    "id": "MCU4512",
+                    "name": "Baterías y Percusión",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU435173",
+                    "name": "Equipos de DJ y Accesorios",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU434917",
+                    "name": "Estudio de Grabación",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU4611",
+                    "name": "Instrumentos de Cuerdas",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU3005",
+                    "name": "Instrumentos de Viento",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU434818",
+                    "name": "Metrónomos",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU434816",
+                    "name": "Micrófonos y Amplificadores",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU434927",
+                    "name": "Parlantes y Bafles",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU3360",
+                    "name": "Partituras y Letras",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU434786",
+                    "name": "Pedales y Accesorios",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU2997",
+                    "name": "Teclados y Pianos",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU3014",
+                    "name": "Otros",
+                    "total_items_in_this_category": 0
+                }
+            ]
+        },
+        {
+            "id": "MCU3937",
+            "name": "Joyas y Relojes",
+            "picture": "http://resources.mlstatic.com/category/images/2f423cc0-af08-4d97-b9a4-d61d9524604c.png",
+            "children_categories": [
+                {
+                    "id": "MCU431676",
+                    "name": "Exhibidores y Joyeros",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU404419",
+                    "name": "Insumos para Joyería",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU1431",
+                    "name": "Joyas y Bisutería",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU431678",
+                    "name": "Piedras Preciosas",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU437168",
+                    "name": "Piercings",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU431891",
+                    "name": "Plumas y Lapiceras de Lujo",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU6750",
+                    "name": "Pulsómetros y Cronómetros",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU431677",
+                    "name": "Relojes",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU417301",
+                    "name": "Repuestos para Relojes",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU399230",
+                    "name": "Smartwatch",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU3938",
+                    "name": "Otros",
+                    "total_items_in_this_category": 0
+                }
+            ]
+        },
+        {
+            "id": "MCU1132",
+            "name": "Juegos y Juguetes",
+            "picture": "http://resources.mlstatic.com/category/images/252f33d2-dae8-4eaf-a903-a41f02c504b4.png",
+            "children_categories": [
+                {
+                    "id": "MCU352344",
+                    "name": "Armas y Lanzadores de Juguete",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU1157",
+                    "name": "Bloques y Construcción",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU433060",
+                    "name": "Casas y Carpas para Niños",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU418284",
+                    "name": "Dibujo, Pintura y Manualidades",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU2967",
+                    "name": "Electrónicos para Niños",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU1831",
+                    "name": "Figuritas, Álbumes y Cromos",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU432873",
+                    "name": "Hobbies",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU11229",
+                    "name": "Instrumentos Musicales",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU433069",
+                    "name": "Juegos de Agua y Playa",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU432988",
+                    "name": "Juegos de Mesa y Cartas",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU1167",
+                    "name": "Juegos de Plaza y Aire Libre",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU4696",
+                    "name": "Juegos de Salón",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU432991",
+                    "name": "Juguetes Antiestrés e Ingenio",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU416865",
+                    "name": "Juguetes de Bromas",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU432818",
+                    "name": "Juguetes de Oficios",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU3655",
+                    "name": "Juguetes para Bebés",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU37615",
+                    "name": "Mesas y Sillas para Niños",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU1841",
+                    "name": "Modelismo",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU432888",
+                    "name": "Muñecos y Muñecas",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU12087",
+                    "name": "Patines y Patinetas",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU94997",
+                    "name": "Pelotas y Animales Saltarines",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU6558",
+                    "name": "Peloteros y Castillos",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU1166",
+                    "name": "Peluches",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU433047",
+                    "name": "Títeres y Marionetas",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU432871",
+                    "name": "Vehículos de Juguete",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU6151",
+                    "name": "Vehículos para Niños",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU1910",
+                    "name": "Otros",
+                    "total_items_in_this_category": 0
+                }
+            ]
+        },
+        {
+            "id": "MCU3025",
+            "name": "Libros, Revistas y Comics",
+            "picture": "http://resources.mlstatic.com/category/images/08fef13e-9eda-47ae-b56c-ee7bcc8ac762.png",
+            "children_categories": [
+                {
+                    "id": "MCU433385",
+                    "name": "Catálogos",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU3043",
+                    "name": "Comics",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU1196",
+                    "name": "Libros",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU3044",
+                    "name": "Manga",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU6154",
+                    "name": "Revistas",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU1227",
+                    "name": "Otros",
+                    "total_items_in_this_category": 0
+                }
+            ]
+        },
+        {
+            "id": "MCU1168",
+            "name": "Música y Películas",
+            "picture": "http://resources.mlstatic.com/category/images/f1c97f6c-b3f5-4156-8a7f-a2b90df681c2.png",
+            "children_categories": [
+                {
+                    "id": "MCU1176",
+                    "name": "Música",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU1169",
+                    "name": "Películas",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU7841",
+                    "name": "Series de TV",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU1228",
+                    "name": "Otros",
+                    "total_items_in_this_category": 0
+                }
+            ]
+        },
+        {
+            "id": "MCU1540",
+            "name": "Servicios",
+            "picture": "http://resources.mlstatic.com/category/images/16cd7f28-7f86-454b-8a3b-8691dbfd57d5.png",
+            "children_categories": [
+                {
+                    "id": "MCU9028",
+                    "name": "Belleza e Higiene Personal",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU1563",
+                    "name": "Enseñanza",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU9135",
+                    "name": "Fiestas y Eventos",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU9080",
+                    "name": "Mantenimiento del Hogar",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU9056",
+                    "name": "Medicina y Salud",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU9004",
+                    "name": "Reparaciones e Instalaciones",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU9038",
+                    "name": "Transporte General",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU1229",
+                    "name": "Viajes y Turismo",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU1898",
+                    "name": "Otros Servicios",
+                    "total_items_in_this_category": 0
+                }
+            ]
+        },
+        {
+            "id": "MCU1953",
+            "name": "Otras categorías",
+            "picture": "http://resources.mlstatic.com/category/images/3eac7f32-69c7-4963-9bb9-a3ad7e09fa92.png",
+            "children_categories": [
+                {
+                    "id": "MCU2818",
+                    "name": "Adultos",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU1403",
+                    "name": "Alimentos y Bebidas",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU1071",
+                    "name": "Animales y Mascotas",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU10934",
+                    "name": "Artículos de Mercería",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU1384",
+                    "name": "Bebés",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU1246",
+                    "name": "Belleza y Cuidado Personal",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU1418",
+                    "name": "Cigarros y Pipas",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU406028",
+                    "name": "Coberturas Extendidas",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU417785",
+                    "name": "Criptomonedas",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU1740",
+                    "name": "Esoterismo",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU401316",
+                    "name": "Gift Cards",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU407134",
+                    "name": "Herramientas y Construcción",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU1499",
+                    "name": "Industrias y Oficinas",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU433536",
+                    "name": "Kits de Criminalística",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU433022",
+                    "name": "Licencias para Taxis",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU413190",
+                    "name": "Mangas de Viento",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU421364",
+                    "name": "Pirotecnia",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU437240",
+                    "name": "PruebaBorrar",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU44011",
+                    "name": "Recuerdos, Cotillón y Fiestas",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU409431",
+                    "name": "Salud y Equipamiento Médico",
+                    "total_items_in_this_category": 0
+                },
+                {
+                    "id": "MCU3530",
+                    "name": "Otros",
+                    "total_items_in_this_category": 0
+                }
+            ]
+        }
+    ],
+    "message": "categories listed"
+}

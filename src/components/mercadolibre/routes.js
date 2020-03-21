@@ -14,7 +14,10 @@ function mercadoLibreAPI(app) {
         const countriesService = new CountriesService();
         try{
             const data = await countriesService.getAPICountries();
+            const dateGet = new Date();
             res.status(200).json({
+                "source": "ML",
+                "fecha": dateGet,
                 data,
                 message: 'countries listed'
               });
@@ -27,9 +30,12 @@ function mercadoLibreAPI(app) {
       });
       router.get('/getcategories', async (req, res) => {
         const categoriesService = new CategoriesService();
+        const dateGet = new Date();
         try{
             const data = await categoriesService.getAPICategories();
             res.status(200).json({
+                "source": "ML",
+                "fecha": dateGet,
                 data,
                 message: 'categories listed'
               });
@@ -42,11 +48,13 @@ function mercadoLibreAPI(app) {
       });
       router.get('/getcategories/:countryid', async (req, res) => {
         const countryid = req.params.countryid;
-        console.log(countryid);
+        const dateGet = new Date();
         const categoriesService = new CategoriesService();
         try{
             const data = await categoriesService.getAPICategoriesbyCountry(countryid);
             res.status(200).json({
+                "source": "ML",
+                "fecha": dateGet,
                 data,
                 message: 'categories listed'
               });
