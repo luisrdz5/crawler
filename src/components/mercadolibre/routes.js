@@ -1,6 +1,7 @@
 const express = require('express');
 const CountriesService = require('./countriesService');
 const CategoriesService = require('./categoriesService');
+const ProductsService = require('./productsService');
 
 function mercadoLibreAPI(app) {
     const router = express.Router();
@@ -8,6 +9,25 @@ function mercadoLibreAPI(app) {
 
     router.get('/', (req, res) => {
       res.send(`API auth v 0.01`);
+    });
+    router.get('/getproducts', async (req, res) => {
+      const productsService = new ProductsService();
+      try{
+          const data = await productsService.getAPIProducts();
+          const dateGet = new Date();
+          res.status(200).json({
+              "source": "ML",
+              "fecha": dateGet,
+              "catalogue": "products",
+              data,
+              message: 'products listed'
+            });
+      } catch(err){
+          res.status(500).json({
+              data,
+              error: 'error getting countries'
+            });
+      }
     });
 
     router.get('/getcountries', async (req, res) => {
@@ -18,6 +38,7 @@ function mercadoLibreAPI(app) {
             res.status(200).json({
                 "source": "ML",
                 "fecha": dateGet,
+                "catalogue": "countries",
                 data,
                 message: 'countries listed'
               });
@@ -36,6 +57,7 @@ function mercadoLibreAPI(app) {
             res.status(200).json({
                 "source": "ML",
                 "fecha": dateGet,
+                "catalogue": "categories",
                 data,
                 message: 'categories listed'
               });
@@ -55,6 +77,7 @@ function mercadoLibreAPI(app) {
             res.status(200).json({
                 "source": "ML",
                 "fecha": dateGet,
+                "catalogue": "categories",
                 data,
                 message: 'categories listed'
               });
