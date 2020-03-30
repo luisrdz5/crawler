@@ -5,6 +5,7 @@ const MongoLib = require('../../lib/mongo');
 class ProductsService {
   constructor() {
     this.collection = 'products';
+    this.criteria = 'criteria';
     this.MongoDB = new MongoLib();
   }
 
@@ -83,11 +84,7 @@ class ProductsService {
             return {};
           }
 */
-
       }
-
-
-
       createProducts(data) {
         try {
           return this.MongoDB.create(this.collection, data);
@@ -96,6 +93,68 @@ class ProductsService {
         }
       }
 
-
+      async insertProductsFromCriteria(){
+          // We get countries 
+          let countries = [] ;
+          let categories = {};
+          let category = {};
+          let indexCategory=[];
+          try {
+              const api = `${config.apiMercadolibre}/sites`;
+              const { data } = await axios.get(api);
+              data.map( async (item) => {
+                  countries.push(item.id);
+              })
+            } catch (error) {
+              console.error(error);
+            }
+            countries = countries.filter((country) => country !== "MPT");
+          //We get products from criteria 
+            let criteria = await this.getCriteria();
+            criteria = criteria.map(async (item) => {
+            try {
+              countries = countries.map(async (country) => {
+                try {
+                  const url = `${config.apiMercadolibre}/sites/${country}/search?q=${item}`;
+                  const { products } = await axios.get(url);
+                  return products;
+                }catch(err){
+                  console.log(err);
+                }
+              });
+              return countries;
+    /*
+              //https://api.mercadolibre.com/sites/MCO/search?q=iphone
+              //const url = `${config.apiMercadolibre}/sites/${item}/categories`;
+                const url = `${config.apiMercadolibre}/sites/${item}/categories`;
+                const { data } = await axios.get(url);
+                data.map((index) => {
+                    indexCategory.push(index.id);
+                })
+                //console.log(`indexCategory es: ${indexCategory}`);
+                category = { "country" : item, data : indexCategory } ;
+                //console.log(`category es: ${JSON.stringify(category)}`);
+                return category;
+                //console.log(`category es: ${category}`);
+              } catch (error) {
+                console.error(error);
+                return {};
+              }
+          */
+            } catch (error) {
+              console.error(error);
+              return {};
+            }
+          });  
+          return criteria;     
+      }
+      async getCriteria(){
+        const query = {};
+        let criteria = await this.MongoDB.getAll(this.criteria, query);
+        criteria = criteria.map((item) => {
+          return item.keyWord;
+        })
+        return criteria || [];
+    }
 }
 module.exports = ProductsService;

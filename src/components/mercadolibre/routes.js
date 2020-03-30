@@ -126,7 +126,26 @@ function mercadoLibreAPI(app) {
           console.log(err);
         }
       });
-      
+      router.get('/insertproducts', async (req, res) => {
+        const productsService = new ProductsService();
+        try{
+            const data = await productsService.insertProductsFromCriteria();
+            if(data){
+              res.status(200).json({
+                data,
+                message: 'products saved'
+              });
+            }
+            else {
+              res.status(500).json({
+                data,
+                error: 'error getting products'
+              });
+            }
+        }catch(err){
+          console.log(err);
+        }
+      });
 }
 
 module.exports = mercadoLibreAPI;
