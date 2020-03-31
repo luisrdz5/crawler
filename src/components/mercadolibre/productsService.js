@@ -99,30 +99,47 @@ class ProductsService {
           let categories = {};
           let category = {};
           let indexCategory=[];
+          let criteria = [];
           try {
-              const api = `${config.apiMercadolibre}/sites`;
-              const { data } = await axios.get(api);
+            const api = `${config.apiMercadolibre}/sites`;
+            const { data } = await axios.get(api);
+            Promise.all(data).then(async (values) => { 
               data.map( async (item) => {
-                  countries.push(item.id);
+                countries.push(item.id);
               })
-            } catch (error) {
-              console.error(error);
-            }
-            countries = countries.filter((country) => country !== "MPT");
+              countries = countries.filter((country) => country !== "MPT");
+              criteria = await this.getCriteria();
+              Promise.all(criteria).then(values => { 
+                criteria = values.map(async (item) => {
+                  try {
+                    countries = countries.map(async (country) => {
+                      console.log(country);
+                      console.log(item);
+                      try {
+                        //const url = `${config.apiMercadolibre}/sites/${country}/search?q=${item}`;
+                        //const { products } = await axios.get(url);
+                        const products = {};
+                        return products;
+                      }catch(err){
+                        console.error(err);
+                      }
+                    });
+                  } catch (error) {
+                    console.error(error);
+                  }
+                  return countries;
+                });
+                return criteria;
+              })
+            })
+
+        } catch (error) {
+          console.error(error);
+          return {};
+        } 
+ 
           //We get products from criteria 
-            let criteria = await this.getCriteria();
-            criteria = criteria.map(async (item) => {
-            try {
-              countries = countries.map(async (country) => {
-                try {
-                  const url = `${config.apiMercadolibre}/sites/${country}/search?q=${item}`;
-                  const { products } = await axios.get(url);
-                  return products;
-                }catch(err){
-                  console.log(err);
-                }
-              });
-              return countries;
+
     /*
               //https://api.mercadolibre.com/sites/MCO/search?q=iphone
               //const url = `${config.apiMercadolibre}/sites/${item}/categories`;
@@ -140,13 +157,7 @@ class ProductsService {
                 console.error(error);
                 return {};
               }
-          */
-            } catch (error) {
-              console.error(error);
-              return {};
-            }
-          });  
-          return criteria;     
+          */   
       }
       async getCriteria(){
         const query = {};
