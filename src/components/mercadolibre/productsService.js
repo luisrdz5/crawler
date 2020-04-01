@@ -110,15 +110,16 @@ class ProductsService {
               countries = countries.filter((country) => country !== "MPT");
               criteria = await this.getCriteria();
               Promise.all(criteria).then(values => { 
+                //console.log(countries);
                 criteria = values.map(async (item) => {
                   try {
-                    countries = countries.map(async (country) => {
-                      console.log(country);
-                      console.log(item);
+                    countries.map(async (country) => {
+                      //console.log(country);
+                      //console.log(item);
                       try {
-                        //const url = `${config.apiMercadolibre}/sites/${country}/search?q=${item}`;
-                        //const { products } = await axios.get(url);
-                        const products = {};
+                        const url = `${config.apiMercadolibre}/sites/${country}/search?q=${item}`;
+                        const { products } = await axios.get(url);
+                        //const products = {};
                         return products;
                       }catch(err){
                         console.error(err);
