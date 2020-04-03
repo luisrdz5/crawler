@@ -32,18 +32,14 @@ class ProductsService {
           countries = countries.filter((country) => country === "MLA");
           const countriesIndex = countries.map(async (item) => {
               indexCategory=[];
-              //console.log(`item es: ${item}`)
             try {
                 const url = `${config.apiMercadolibre}/sites/${item}/categories`;
                 const { data } = await axios.get(url);
                 data.map((index) => {
                     indexCategory.push(index.id);
                 })
-                //console.log(`indexCategory es: ${indexCategory}`);
                 category = { "country" : item, data : indexCategory } ;
-                //console.log(`category es: ${JSON.stringify(category)}`);
                 return category;
-                //console.log(`category es: ${category}`);
               } catch (error) {
                 console.error(error);
                 return {};
@@ -74,17 +70,7 @@ class ProductsService {
               })
             })
           });
-          //console.log(categories);    
-/*
-          try {
-            const url = `${config.apiMercadolibre}/sites/${country_id}/categories`;
-            const { data } = await axios.get(url);
-            return data;
-          } catch (error) {
-            console.error(error);
-            return {};
-          }
-*/
+
       }
       createProducts(data) {
         try {
@@ -94,69 +80,6 @@ class ProductsService {
         }
       }
 
-
-
-      /*
-
-      async insertLinksFromCriteria(){
-          this.deleteLinks();
-          // We get countries 
-          let countries = [] ;
-          let categories = {};
-          let category = {};
-          let indexCategory=[];
-          let criteria = [];
-          let allData = {};
-          const dateGet = new Date();
-          
-          allData = {
-            "source": "PCML",
-            "fecha": dateGet,
-            "Catalogue": "products"
-          }
-          try {
-            const api = `${config.apiMercadolibre}/sites`;
-            const { data } = await axios.get(api);
-            Promise.all(data).then(async (item) => { 
-              data.map( async (item) => {
-                countries.push(item.id);
-              })
-              countries = countries.filter((country) => country !== "MPT");
-              //countries = countries.filter((country) => country === "MLA");
-              criteria = await this.getCriteria();
-              Promise.all(criteria).then(values => { 
-                //console.log(countries);
-                const resultValues = values.map(async (item) => {
-                  try {
-                    const resultProducts = countries.map(async (country) => {
-                      //console.log(country);
-                      //console.log(item);
-                      try {
-                        const url = `${config.apiMercadolibre}/sites/${country}/search?q=${item}`;
-                        //const { products } = await axios.get(url);
-                        const allURL = {
-                          url,
-                          processed: false
-                        }
-                        return this.createLinks(allURL);
-                      }catch(err){
-                        console.error(err);
-                      }
-                    });
-                    return resultProducts;
-                  } catch (error) {
-                    console.error(error);
-                  }
-                });
-              })
-            })
-        } catch (error) {
-          console.error(error);
-          return {};
-        } 
-      }
-
-      */
 
      async getCountries(){
       let countries = [] ;
@@ -211,6 +134,7 @@ class ProductsService {
           console.log(`procesando ... ${item.url}`)
           result = await this.executeURL(item.url);
         })
+        console.log('Sending data finished ...');
         return URLs;
        }catch(error){
          console.log(error);
@@ -250,20 +174,7 @@ class ProductsService {
           ...allData,
           data: products.data,
         }
-        //console.log(allData);
         this.createProducts(allData);
-        /*
-        Promise.all(products).then(async (value) => { 
-          
-          allData = {
-            ...allData,
-            data: value,
-          }
-          console.log(allData);
-          return await this.createProducts(allData);
-        })
-
-        */
       }catch(error){
         console.log(error);
         return error;
