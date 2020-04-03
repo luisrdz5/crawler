@@ -126,10 +126,30 @@ function mercadoLibreAPI(app) {
           console.log(err);
         }
       });
-      router.get('/insertproducts', async (req, res) => {
+      router.get('/insertlinks', async (req, res) => {
         const productsService = new ProductsService();
         try{
-            const data = await productsService.insertProductsFromCriteria();
+            const data = await productsService.insertLinksFromCriteria();
+            if(data){
+              res.status(200).json({
+                data,
+                message: 'Links saved'
+              });
+            }
+            else {
+              res.status(500).json({
+                data,
+                error: 'error getting products'
+              });
+            }
+        }catch(err){
+          console.log(err);
+        }
+      });
+      router.get('/executelinks', async (req, res) => {
+        const productsService = new ProductsService();
+        try{
+            const data = await productsService.executeURLsCreated();
             if(data){
               res.status(200).json({
                 data,

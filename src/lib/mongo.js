@@ -57,6 +57,12 @@ class MongoConnect {
       .then((result) => result)
       .catch((err) => console.error(err));
   }
+  deleteMany(collection, data) {
+    return this.connect()
+      .then((db) => db.collection(collection).deleteMany(data))
+      .then((result) => result)
+      .catch((err) => console.error(err));
+  }
 
   update(collection, id, data) {
     return this.connect()
